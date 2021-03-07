@@ -39,3 +39,12 @@ Backend script which generates the final page using caddy's markdown library to 
 ```
 The result for the last caddy server instruction would be seen as :
 ### The End
+
+## Use Case
+
+- You may run the weblog as is from a local caddy instance and it should work.
+- You can upload it on your website : check the paths in scripts (mainly hardcoded for now).
+  - **!** The new.php file allows anyone to publish on this instance, you may want to remove it (this has to be improved).
+
+- You can check my [running version](https://dukeart.netlib.re/weblog "dukeart/weblog").
+
