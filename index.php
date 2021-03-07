@@ -26,8 +26,8 @@
         ?>
         </section>
 	<section class="feed">
-		<a href="/weblog/feed" title="RSS Feed"><img src="https://dukeart.netlib.re/iconeleon?i=rss" width="20"/></a>
-		<a href="/weblog/feed?json" title="JSON Feed"><img src="https://dukeart.netlib.re/iconeleon?i=js-square" width="20"/></a>
+		<a href="/feed" title="RSS Feed"><img src="https://dukeart.netlib.re/iconeleon?i=rss" width="20"/></a>
+		<a href="/feed?json" title="JSON Feed"><img src="https://dukeart.netlib.re/iconeleon?i=js-square" width="20"/></a>
 	</section>
         <script>
             function switch_sort() {
