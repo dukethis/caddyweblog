@@ -1,5 +1,5 @@
 # caddy weblog
-Minimalist weblog (single user)
+Minimalist weblog (single user) used with [Caddy server](https://caddyserver.com/) to transcript markdown to HTML
 
 ## Structure
 
