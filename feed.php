@@ -39,9 +39,8 @@
 		$xmlitem->addChild("guid",   $HOST."/weblog?title=".implode('-',explode(' ',$item->title)));
 		$xmlitem->addChild("pubdate", Date(DATE_RFC2822,strtotime($item->pubdate)));
 		$xmlitem->addChild("created", Date(DATE_RFC2822,strtotime($item->pubdate)));
-		$tags = $xmlitem->addChild("tags");
 		foreach ($item->tags as $tag) {
-			$tags->addChild("tag",$tag);
+			$xmlitem->addChild("category",$tag);
 		}
 	}
 	header('Content-Type: text/xml');
