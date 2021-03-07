@@ -17,6 +17,18 @@ Serves the new log form which allows to create a new publication providing :
 - a title
 - a markdown formatted content
 
+### /feed.php
+
+Serves a RSS 2.0 feed (XML formatted, badly...).
+
+### /feed.php?json
+
+Serves the JSON feed (formatting to improve)
+
+### /data.json
+
+Access the weblog's JSON data tree.
+
 ### /weblog.php
 
 Backend script which generates the final page using caddy's markdown library to parse markdown to HTML. The following is used to achieve the transcription in .php files :
